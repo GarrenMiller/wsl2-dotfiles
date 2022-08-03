@@ -149,6 +149,10 @@ linters.setup {
 
 -- Additional Plugins
 lvim.plugins = {
+  -- Themes
   { "folke/tokyonight.nvim" },
-  { "rebelot/kanagawa.nvim" }
+  { "rebelot/kanagawa.nvim" },
+
+  -- Smooth scrolling
+  { "karb94/neoscroll.nvim" },
 }
